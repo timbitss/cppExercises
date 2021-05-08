@@ -81,7 +81,7 @@ dkms.conf
 # Executables
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 *.code-workspace
 
 ### VisualStudioCode Patch ###
