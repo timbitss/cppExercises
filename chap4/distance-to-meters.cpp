@@ -39,6 +39,11 @@ int main(){
          << "Total distance = " << total_distance << " m\n"
          << "Number of values = " << distances.size();
 
+    cout << "\nSorted distances:\n";
+    for(double d : distances){
+        cout << d << ' ';
+    }
+
     return 0;
 }
 
