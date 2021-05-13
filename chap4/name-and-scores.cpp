@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/**
+ * Record and retrieve name and scores.   
+ */
 int main(){
 
     vector<string> names;
