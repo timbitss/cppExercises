@@ -16,6 +16,7 @@ int main(){
     cout << "Please enter the number of differences you want between adjacent values:\n";
     cin >> amount_of_diff;
 
+
     vector<double> nums;
     cout << "Please enter numbers: \n";
     for(int num; cin>>num;){
@@ -49,3 +50,4 @@ void Differences(vector<double> numbers, int amount_of_diff){
     }
 
 }
+
