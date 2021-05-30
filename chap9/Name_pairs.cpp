@@ -97,13 +97,7 @@ void Name_pairs::print(void) const
     }
 }
 
-/**
- * @brief Overload << operator to print out name pairs (one each line)
- * 
- * @param os standard output stream
- * @param np Name_pairs object
- * @return std::ostream& 
- */
+
 std::ostream& operator<<(std::ostream& os, const Name_pairs& np)
 {
     const std::vector<std::string>& names = np.get_names();
